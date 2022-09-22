@@ -2,7 +2,7 @@
 implementation linux sort util
 
 # Usage
-    go run sort.go [-flags] [file.txt]
+    go run sort.go [-flags] some.txt
 # Supported Flags
 **-k** - specify a column for sorting (words in a line can act as columns, the default separator is a space)\
 **-n** - sort by numeric value\
